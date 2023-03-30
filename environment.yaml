@@ -1,0 +1,10 @@
+name: pt2mask
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.13
+  - numpy=1.23.3
+  - scipy=1.10.0
+  - pip:
+    - opencv-python==4.7.0.68
